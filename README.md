@@ -1,4 +1,4 @@
-This web application is developed for predicting a caption given a video input, which is known as video captioning. The backend API is developed with the aid of [TorchServe](https://pytorch.org/serve/), while the frontend web application is developed by utilizing [Bootstrap V5](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
+I developed this web application which able to generate a caption given a video input, which is known as video captioning. The backend API is developed with the aid of [TorchServe](https://pytorch.org/serve/), while the frontend web application is developed by utilizing [Bootstrap V5](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
 
 #### The overall system architecture is illustrated as below:
  
