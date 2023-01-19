@@ -6,8 +6,7 @@ I developed this web application which able to generate a caption given a video 
  
 #### The final web application is look like below:
  
- >![final web application overview](assets/images/final-web-application-overview.png)
-
+<video src='https://github.com/willyfh/video-captioning-web-app/blob/main/assets/videos/demo-video.mp4?raw=true' ></video>
 
 ## Building the Backend API
 As the backend API is built by utilizing TorchServe, the provided endpoints also depend on the library. Here, i utilize the provided [`Predictions API`](https://pytorch.org/serve/inference_api.html#predictions-api):
@@ -151,7 +150,7 @@ Here, we are binding the container port 8080 and 8081 to 3000 and 3001, respecti
 Now, the Predictions API should be running with endpoint `/prediction/video-captioning`, where we can get the caption predictions by sending a video:
 
 ```bash
-curl -X POST http://127.0.0.1:3000/predictions/video-captioning -T demo-videos/video0.mp4 
+curl -X POST http://127.0.0.1:3000/predictions/video-captioning -T sample-videos/sample-video.mp4 
 ```
 
 **Response**: a man is driving a car
