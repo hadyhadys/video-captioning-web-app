@@ -6,7 +6,9 @@ I developed this web application which able to generate a caption given a video 
  
 #### The final web application is look like below:
  
-<video src='https://github.com/willyfh/video-captioning-web-app/blob/main/assets/videos/demo-video.mp4?raw=true' ></video>
+
+https://user-images.githubusercontent.com/5786636/213344076-bd0220b2-9dce-4b93-bde9-0f75c21e159c.mp4
+
 
 ## Building the Backend API
 As the backend API is built by utilizing TorchServe, the provided endpoints also depend on the library. Here, i utilize the provided [`Predictions API`](https://pytorch.org/serve/inference_api.html#predictions-api):
